@@ -1,0 +1,24 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  branches:
+    include:
+      - feature-login
+
+pool: new pool
+
+steps:
+  - checkout: self
+    displayName: "Checkout Code"
+
+  - script: echo "Building Project"
+    displayName: "Build Stage"
+
+  - script: echo "Running Tests"
+    displayName: "Test Stage"
+
+  - script: echo "Build Successful!"
+    displayName: "Success Stage"
