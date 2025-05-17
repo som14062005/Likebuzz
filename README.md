@@ -1,4 +1,4 @@
-# 🚍 College Bus Management App
+# 🚍 College Bus Management App(LIKEbuzz)
 
 ![Flutter](https://img.shields.io/badge/Flutter-Framework-blue) 
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange)
